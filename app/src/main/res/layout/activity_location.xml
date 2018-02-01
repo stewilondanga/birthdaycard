@@ -11,7 +11,8 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ocean"/>
+        android:src="@drawable/ocean"
+        android:layout_margin="8dp"/>
 
     <TextView
         android:id="@+id/pebble_beach"
