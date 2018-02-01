@@ -24,6 +24,23 @@
         android:textSize="24sp"
         android:text="Ben"/>
 
+    <TextView
+        android:id="@+id/kunal_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/ben_text_view"
+        android:textSize="24sp"
+        android:text="Kunal"/>
+
+    <TextView
+        android:id="@+id/omoju_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/jennie_text_view"
+        android:textSize="24sp"
+        android:text="Omoju"/>
 </RelativeLayout>
 
 
