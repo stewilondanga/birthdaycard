@@ -3,18 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.github.stewilondanga.birthdaycard.MainActivity">
+    tools:context="io.github.stewilondanga.birthdaycard.MainActivity"
+    android:background="@android:color/holo_green_dark">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday!"
-        android:background="@color/colorAccent"
-        android:textSize="40sp"/>
+        android:background="@android:color/holo_purple"
+        android:textSize="30sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You're the best!" />
+        android:text="You're the best!"
+        android:background="@android:color/darker_gray"
+        android:textSize="20sp"/>
 
 </LinearLayout>
