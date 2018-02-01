@@ -26,4 +26,12 @@
         android:textSize="45sp"
         android:background="#009688"/>
 
+    <TextView
+        android:text="Bonfire at the beach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:background="#009688"/>
+
 </LinearLayout>
