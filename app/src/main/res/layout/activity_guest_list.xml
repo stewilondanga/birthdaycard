@@ -3,9 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.github.stewilondanga.birthdaycard.GuestListActivity">
-
-</RelativeLayout>
+    tools:context="io.github.stewilondanga.birthdaycard.GuestListActivity"
+    android:background="@color/colorPrimary">
 
     <TextView
         android:id="@+id/jennie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:text="Jennie" />
+
+    <TextView
+        android:id="@+id/ben_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="Ben"/>
+
+</RelativeLayout>
+
+
