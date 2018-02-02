@@ -6,23 +6,25 @@
     tools:context="io.github.stewilondanga.birthdaycard.MainActivity">
 
 
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView"
         android:scaleType="centerCrop"
         android:src="@drawable/cake" />
 
     <TextView
+        android:id="@+id/happy_birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:text="Happy Birthday!"
-        android:textSize="55sp"
-        android:id="@+id/happy_birthday"
         android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/holo_orange_dark"/>
+        android:text="Happy Birthday!"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,9 +32,10 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:text="You're the best!"
-        android:textSize="36sp"
+        android:textSize="55sp"
         android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/holo_blue_bright"
+        android:id="@+id/textView" />
 
 
 </RelativeLayout>
