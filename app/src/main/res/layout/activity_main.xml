@@ -3,38 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_dark"
-    android:gravity="center_vertical"
-    android:orientation="vertical"
     tools:context="io.github.stewilondanga.birthdaycard.MainActivity">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
-        android:background="@android:color/holo_purple"
-        android:text="Happy Birthday!"
-        android:textSize="30sp"
-        android:layout_centerHorizontal="true"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:background="@android:color/darker_gray"
-        android:text="You're the best!"
-        android:textSize="20sp"
-        android:layout_centerHorizontal="true"/>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="120dp"
-        android:scaleType="center"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
         android:src="@drawable/cake" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Happy Birthday!"
+        android:textSize="55sp"
+        android:id="@+id/happy_birthday"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="You're the best!"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
+
 
 </RelativeLayout>
